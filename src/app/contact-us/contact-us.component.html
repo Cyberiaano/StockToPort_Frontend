@@ -1,0 +1,33 @@
+<app-header></app-header>
+<div class="contact-container">
+  <div class="contact-form" >
+    <h5 style="margin-bottom: 18px;">Get in Touch</h5>
+    <form (ngSubmit)="onSubmit($event)" #form="ngForm">
+      <div class="form-group">
+        <input type="text" id="name" required [(ngModel)]="name" class="form-control" name="name" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" required [(ngModel)]="email" name="email" class="form-control" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <textarea id="message" required [(ngModel)]="message" name="message" class="form-control" placeholder="Message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <div class="loading-container" *ngIf="isLoading">
+        <div class="loading-spinner"></div>
+      </div>
+      <div *ngIf="successMessage" class="success-message">
+        <i class="fas fa-check"></i> {{ successMessage }}
+      </div>
+      <div *ngIf="errorMessage" class="error-message">
+        <i class="fas fa-exclamation"></i> {{ errorMessage }}
+      </div>
+    </form>
+  </div>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.132099835848!2d-7.642000384068349!3d33.5419414592226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDM0JzMwLjAiTiA3wrA0MCc1NzguNiJX!5e0!3m2!1sen!2sus!4v1626517589213!5m2!1sen!2sus"
+      width="600" height="240" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+</div>

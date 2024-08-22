@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" routerLink="/home">
+      <img src="/assets/logos/jesa.ico" alt="Jesa Digital Solutions" class="me-2" style="width: 80px; height: 25px;">
+    </a>
+    <button class="navbar-toggler" type="button" (click)="toggleMenu()" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item dropdown" id="digitalSolutionsItem">
+          <a class="nav-link mx-2 dropdown-toggle" href="#" id="digitalSolutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Digital Solutions
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="digitalSolutionsDropdown">
+            <li><a class="dropdown-item" routerLink="/quality-identifier">Quality Identifier</a></li>
+            <li><a class="dropdown-item" routerLink="/stockpile-management">Stockpile Management System</a></li>
+            <li><a class="dropdown-item" routerLink="/shiploading-automation">Shiploading Automation</a></li>
+            <li><a class="dropdown-item" routerLink="/condition-monitoring-system">Condition Monitoring System</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/ai-assistant">AI Assistant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/contact-us">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="custom-collapse" [ngClass]="{'show': isMenuOpen}">
+      <button type="button" class="btn-close btn-close-white custom-close" aria-label="Close" (click)="toggleMenu()"></button>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item dropdown" id="digitalSolutionsItem">
+          <a class="nav-link mx-2 dropdown-toggle" href="#" id="digitalSolutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Digital Solutions
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="digitalSolutionsDropdown">
+            <li><a class="dropdown-item" routerLink="/quality-identifier">Quality Identifier</a></li>
+            <li><a class="dropdown-item" routerLink="/stockpile-management">Stockpile Management System</a></li>
+            <li><a class="dropdown-item" routerLink="/shiploading-automation">Shiploading Automation</a></li>
+            <li><a class="dropdown-item" routerLink="/condition-monitoring-system">Condition Monitoring System</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/ai-assistant">AI Assistant</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" routerLink="/contacts">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

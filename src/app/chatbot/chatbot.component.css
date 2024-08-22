@@ -1,0 +1,69 @@
+/* src/app/chatbot/chatbot.component.css */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 80px); /* Adjust according to the height of your header and footer */
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.chat-header {
+  background-color: rgb(232, 240, 255);
+  color: rgba(0, 51, 102, 0.94);
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #ffffff;
+}
+
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 51, 102, 0.94);
+  border-radius: 5px;
+  background-size: contain;
+  opacity: 0.75;
+}
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message.client {
+  text-align: right;
+  background-color: #e8f0ff;
+  color: black;
+}
+
+.message.client .message-text {
+  background-color: #aac8e1;
+  color: white;
+}
+
+.message.chatbot .message-text {
+  background-color: #e8f0ff;
+  color: black;
+}
+
+.message-text {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}

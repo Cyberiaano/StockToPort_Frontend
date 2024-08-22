@@ -1,0 +1,21 @@
+<div class="process-image-container">
+    <img src="assets/description/image.png" alt="Processus" class="process-image">
+    
+    <!-- Flèche SVG en pointillé -->
+    <svg class="dotted-arrow" viewBox="0 0 100 200" style="top: 10%; left: 15%;">
+      <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="0" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7" />
+        </marker>
+      </defs>
+      <line x1="50" y1="50" x2="50" y2="200" 
+            style="stroke: #000; stroke-width: 2; stroke-dasharray: 5; marker-end: url(#arrowhead);" />
+    </svg>
+    
+    <!-- Zone cliquable -->
+    <button class="clickable-step" routerLink="/stockpile-management" style="top: 210px; left: 15%;">
+      Stockpile Management
+    </button>
+  </div>
+  
