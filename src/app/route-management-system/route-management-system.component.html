@@ -1,0 +1,90 @@
+<app-solution-header></app-solution-header>
+<section id="route-management-system" class="py-5" style="margin-top: 60px;">
+  <div class="container">
+    <div id="pdfContent">
+      <!-- Description Section -->
+      <div class="description mb-5">
+        <h2 id="title" class="text-center">Route Management System</h2>
+        <p id="desc" class="lead text-center">Automated route management and optimization, from the storage area to the port. The system calculates the most efficient route for transporting fertilizer from selected warehouses to a ship vessel, considering factors like distance, traffic conditions, time constraints, and energy consumption.</p>
+        <div class="text-center">
+          <img id="route-img" src="/assets/solutions/route_management.jpg" alt="Route Management" class="img-fluid my-4 animate__animated animate__fadeInUp">
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="features mb-5">
+        <h3 class="text-center mb-4" id="feat">Features</h3>
+        <div class="row" id="features-section">
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn">
+              <img src="/assets/features/efficient-routing.png" alt="Efficient Routing" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Efficient Routing</h5>
+                <p class="card-text">Calculates the most efficient route for transporting fertilizer, optimizing for distance, traffic, time, and energy consumption.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.1s;">
+              <img src="/assets/features/intermediate-locations.png" alt="Intermediate Locations" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Intermediate Locations</h5>
+                <p class="card-text">Allows defining intermediate locations between the warehouse and the vessel for an optimized route.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+              <img src="/assets/features/material-compatibility.png" alt="Material Compatibility" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Material Compatibility</h5>
+                <p class="card-text">Prevents cross-contamination by considering material compatibility in route planning.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact Section -->
+      <div class="impacts mb-5">
+        <h3 class="text-center mb-4" id="impact">Impact/Value Creation</h3>
+        <ul id="impact-section" class="animate__animated animate__fadeIn">
+          <li>Increased Efficiency</li>
+          <li>Optimal Resource Utilization (including energy)</li>
+          <li>Reduced Operational Costs</li>
+          <li>Improved Route Accuracy and Management</li>
+        </ul>
+      </div>
+
+      <!-- Vendors Section -->
+      <div id="vendors-section" class="vendors-maturity mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center" style="text-align: center;" id="vendors">Vendors</h4>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="https://new.siemens.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/siemens-logo.png" alt="Siemens" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px;height: 30px;">
+              </a>
+              <a href="https://www.worley.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/worley-logo.png" alt="Worley" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px;height: 40px;">
+              </a>
+              <a href="https://www.riotinto.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/riotinto-logo.png" alt="Rio Tinto" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 100px;height: 50px;">
+              </a>
+              <a href="https://www.bhp.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/bhp-logo.png" alt="BHP" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 100px;height: 50px;">
+              </a>
+              <a href="https://www.vale.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/vale-logo.png" alt="Vale" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 90px;height: 50px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button (click)="downloadDescription()" class="btn btn-primary">Download PDF</button>
+    </div>
+  </div>
+</section>

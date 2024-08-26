@@ -20,6 +20,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProcessImageComponent } from './process-image/process-image.component';
 import {IntegratedControlSystemComponent} from "./integration-control-system/integration-control-system.component";
 import { RouteManagementSystemComponent } from './route-management-system/route-management-system.component';
+import { Header2Component } from './header2/header2.component';
+import { LaserRadarComponent } from './laser-radar/laser-radar.component';
+import { AutomaticSamplingSystemComponent } from './automatic-sampling-system/automatic-sampling-system.component';
+import { ColorAnalyzerSystemComponent } from './color-analyzer-system/color-analyzer-system.component';
+import { FlapsLoadGuidesAutomationComponent } from './flaps-load-guides-automation/flaps-load-guides-automation.component';
+import { TripperCarAutomationComponent } from './tripper-car-automation/tripper-car-automation.component';
+import { ScrapperAutomationComponent } from './scrapper-automation/scrapper-automation.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +44,14 @@ import { RouteManagementSystemComponent } from './route-management-system/route-
     ContactUsComponent,
     ProcessImageComponent,
     IntegratedControlSystemComponent,
-    RouteManagementSystemComponent
+    RouteManagementSystemComponent,
+    Header2Component,
+    LaserRadarComponent,
+    AutomaticSamplingSystemComponent,
+    ColorAnalyzerSystemComponent,
+    FlapsLoadGuidesAutomationComponent,
+    TripperCarAutomationComponent,
+    ScrapperAutomationComponent
   ],
   imports: [
     BrowserModule,

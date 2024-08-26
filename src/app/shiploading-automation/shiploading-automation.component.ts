@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class ShiploadingAutomationComponent {
   qrCodeData : string='http://10.72.1.97:4200/shiploading-automation';
 
+  downloadDescription() {
+
+  }
 }

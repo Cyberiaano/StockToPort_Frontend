@@ -1,0 +1,83 @@
+<app-solution-header></app-solution-header>
+<section id="flaps-load-guides-automation" class="py-5" style="margin-top: 60px;">
+  <div class="container">
+    <div id="pdfContent">
+      <!-- Description Section -->
+      <div class="description mb-5">
+        <h2 id="title" class="text-center">Flaps and Load Guides Automation</h2>
+        <p id="desc" class="lead text-center">Automatic control of flaps ("volets") and load guides ("guide-charges") positions, ensuring optimal material flow on conveyor belts from stock to port.</p>
+        <div class="text-center">
+          <img id="flaps-img" src="/assets/solutions/flap-load.png" alt="Flaps and Load Guides Automation" class="img-fluid my-4 animate__animated animate__fadeInUp">
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="features mb-5">
+        <h3 class="text-center mb-4" id="feat">Features</h3>
+        <div class="row" id="features-section">
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn">
+              <img src="/assets/features/proximity-sensors.png" alt="Proximity Sensors" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Proximity Sensors</h5>
+                <p class="card-text">Detects the presence or absence of materials on conveyor belts to activate or deactivate flaps and load guides.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.1s;">
+              <img src="/assets/features/position-sensors.png" alt="Position Sensors" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Position Sensors</h5>
+                <p class="card-text">Provides real-time feedback on the positions of flaps and load guides for precise material loading.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+              <img src="/assets/features/actuators.png" alt="Actuators" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Actuators</h5>
+                <p class="card-text">Controls the movement of flaps and load guides, allowing automated adjustments based on material flow.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact Section -->
+      <div class="impacts mb-5">
+        <h3 class="text-center mb-4" id="impact">Impact/Value Creation</h3>
+        <ul id="impact-section" class="animate__animated animate__fadeIn">
+          <li>Reducing stops caused by manual operations and defects</li>
+          <li>Reducing leaks, which minimizes cleaning and recycling costs</li>
+          <li>Decreasing the cost of circuit preparation and reducing reaction time</li>
+        </ul>
+      </div>
+
+      <!-- Vendors Section -->
+      <div id="vendors-section" class="vendors-maturity mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center" style="text-align: center;" id="vendors">Vendors</h4>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="https://new.siemens.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/siemens-logo.png" alt="Siemens" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px;height: 30px;">
+              </a>
+              <a href="https://global.abb/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/abb-logo.png" alt="ABB" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px;height: 40px;">
+              </a>
+              <a href="https://www.se.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/schneider-logo.png" alt="Schneider Electric" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 100px;height: 50px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button (click)="downloadDescription()" class="btn btn-primary">Download PDF</button>
+    </div>
+  </div>
+</section>

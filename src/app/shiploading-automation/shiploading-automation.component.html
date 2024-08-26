@@ -1,33 +1,56 @@
 <app-solution-header></app-solution-header>
-<section id="shiploading-automation" class="py-5" >
-    <div class="container">
+<section id="shiploading-automation" class="py-5" style="margin-top: 60px;">
+  <div class="container">
+    <div id="pdfContent">
       <div class="description mb-5">
-        <h2 class="text-center">Shiploading Automation</h2>
-        <p class="lead text-center">Automation and control of shiploading process, with anti-collision systems, direct  to belt flow, laser scanning and others sensors.
-        </p>
-        <div class="text-center" >
-          <img src="/assets/solutions/ship-loading.png" alt="ShipLoading" class="img-fluid  animate__animated animate__fadeInUp" style="margin-top: 37px; overflow:hidden;" >
+        <h1 id="title" class="text-center">Shiploading Automation</h1>
+        <p id="desc" class="lead text-center">Automation and control of shiploading process, with anti-collision systems, direct to belt flow, laser scanning and other sensors.</p>
+        <div class="text-center">
+          <img id="shiploading-img" src="/assets/solutions/ship-loading.png" alt="ShipLoading" class="img-fluid my-4 animate__animated animate__fadeInUp">
         </div>
       </div>
-     
+
       <!-- Impacts Section -->
       <div class="impacts mb-5">
-        <h3 class="text-center mb-4">Impact/ Value Creation</h3>
-        <ul class="animate__animated animate__fadeIn">
-          <li>reduces the time required to load ships and improving overall operational efficiency.</li>
+        <h3 class="text-center mb-4" id="impact">Impact/ Value Creation</h3>
+        <ul id="impact-section" class="animate__animated animate__fadeIn">
+          <li>Reduces the time required to load ships and improves overall operational efficiency.</li>
           <li>Utilizes anti-collision systems and other safety features to prevent accidents and ensure a safer working environment.</li>
           <li>Laser scanning and sensor technologies enable precise measurement and placement of materials, reducing wastage and ensuring accurate loading.</li>
           <li>By optimizing the loading process and reducing errors, this solution helps in lowering operational costs.</li>
           <li>Provides real-time data and control over the loading process, allowing for better decision-making and management.</li>
         </ul>
       </div>
-  
-          <!-- QR Code Section -->
-          <div class="qr-code-section">
-            <h3 class="text-center mb-4">QR Code</h3>
-            <div class="text-center">
-              <qrcode [qrdata]="qrCodeData" ></qrcode>
+
+      <!-- Vendors Section -->
+      <div id="vendors-section" class="vendors-maturity mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center" id="vendors">Vendors</h4>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="https://new.abb.com/fr" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/abb-logo.png" alt="Vendors" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 70px; height: 70px;">
+              </a>
+              <a href="https://www.siemens.com/ma/fr.html" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/siemens-logo.png" alt="Vendors" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px; height: 30px; margin-left: 20px;">
+              </a>
+              <a href="https://www.flsmidth.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/FLSmidth-logo.png" alt="Vendors" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px; height: 40px; margin-left: 60px;">
+              </a>
+              <a href="https://indurad.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/indurad-logo.png" alt="Vendors" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 90px; height: 50px; margin-left: 60px; padding-bottom: 16px;">
+              </a>
+              <a href="https://mra.com.au/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/mra-logo.png" alt="Vendors" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px; height: 30px; margin-left: 60px;">
+              </a>
             </div>
           </div>
-  
-  
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button (click)="downloadDescription()" class="btn btn-primary">Download PDF</button>
+    </div>
+  </div>
+</section>

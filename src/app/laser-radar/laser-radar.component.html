@@ -1,0 +1,77 @@
+<app-solution-header></app-solution-header>
+<section id="laser-radar-system" class="py-5" style="margin-top: 60px;">
+  <div class="container">
+    <div id="pdfContent">
+      <div class="description mb-5">
+        <h1 id="title" class="text-center">Laser Radar System</h1>
+        <p id="desc" class="lead text-center">Le système radar laser permet une détection précise des obstacles, une analyse en temps réel des distances et une modélisation en 3D pour une navigation sûre et efficace dans des environnements complexes.</p>
+        <div class="text-center">
+          <img id="laser-radar-img" src="/assets/description/laser-radar.png" alt="Laser Radar System" class="img-fluid my-4 animate__animated animate__fadeInUp">
+        </div>
+      </div>
+
+      <div class="features mb-5">
+        <h3 class="text-center mb-4" id="feat">Features</h3>
+        <div class="row" id="features-section">
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn">
+              <img src="/assets/features/collisions.png" alt="Obstacle Detection" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Obstacle Detection</h5>
+                <p class="card-text">Détection des obstacles en temps réel pour une navigation sécurisée.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.1s;">
+              <img src="/assets/features/material.png" alt="Distance Analysis" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Distance Analysis</h5>
+                <p class="card-text">Analyse précise des distances pour éviter les collisions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+              <img src="/assets/features/modeling.png" alt="3D Modeling" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">3D Modeling</h5>
+                <p class="card-text">Modélisation 3D pour une visualisation détaillée de l'environnement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact Section -->
+      <div class="impacts mb-5">
+        <h3 class="text-center mb-4" id="impact">Impact/ Value Creation</h3>
+        <ul id="impact-section" class="animate__animated animate__fadeIn">
+          <li>Amélioration de la sécurité de la navigation</li>
+          <li>Réduction des risques de collision</li>
+          <li>Optimisation des trajets dans des environnements complexes</li>
+          <li>Augmentation de l'efficacité opérationnelle</li>
+        </ul>
+      </div>
+
+      <!-- Vendors Section -->
+      <div id="vendors-section" class="vendors-maturity mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center" style="text-align: center;" id="vendors">Vendors</h4>
+            <div class="text-center" style="margin-top: 15px;" id="vendors-section">
+              <a href="https://indurad.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/indurad-logo.png" alt="Vendors" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 90px;height: 50px;margin-left: 60px;padding-bottom:16px;">
+              </a>
+              <!-- Ajoutez d'autres vendors si nécessaire -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button (click)="downloadDescription()" class="btn btn-primary">Download PDF</button>
+    </div>
+  </div>
+</section>

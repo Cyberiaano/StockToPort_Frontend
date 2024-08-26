@@ -1,0 +1,156 @@
+#route-management-system {
+  background: linear-gradient(45deg, rgb(232, 240, 255), rgb(255, 255, 255));
+  color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 100% !important;
+}
+
+#route-management-system h2,
+#route-management-system h3 {
+  color: rgb(0, 0, 0);
+}
+
+.img-fluid {
+  max-width: 30% !important;
+  height: auto;
+}
+
+.feature-card,
+.challenge-card,
+.solution-card,
+.impact-card {
+  background-color: rgb(170, 200, 225);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.feature-card:hover,
+.challenge-card:hover,
+.solution-card:hover,
+.impact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #37618d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.lead {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgba(14, 23, 52, 0.8);
+}
+
+/* Animation Classes */
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(170, 200, 225);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  max-width: 240px;
+  margin-bottom: 20px;
+  height: 90%;
+  margin-left: 20px;
+}
+
+.feature-card .card-body {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-md-4 {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.feature-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Additional Styles for Print and Animations */
+.pdf-only #pdfContent {
+  padding-top: 90px;
+}
+
+#desc {
+  text-align: justify;
+}
+
+@media print {
+  #pdfContent {
+    margin-top: 40px;
+    padding-left: 10px;
+  }
+  #title {
+    padding-top: 30px !important;
+  }
+  body * {
+    visibility: hidden;
+  }
+  #pdfContent, #pdfContent * {
+    visibility: visible;
+  }
+  #pdfContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.disable-animations * {
+  animation: none !important;
+  transition: none !important;
+}
+
+#impact-section li {
+  background-color: linear-gradient(45deg,rgba(170, 200, 225, 0.64), rgb(85, 109, 152));
+  border: 2px solid linear-gradient(45deg,rgba(170, 200, 225, 0.64), rgb(90, 113, 154));
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#impact-section li:hover {
+  background-color: #e0f7fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

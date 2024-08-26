@@ -1,6 +1,6 @@
 #stockpile-management-system {
-  background:linear-gradient(45deg,rgba(170, 200, 225, 0.64), rgb(85, 109, 152)) ; 
-  color: rgba(21, 34, 75, 0.87);
+  background:linear-gradient(45deg, rgb(232, 240, 255), rgb(255, 255, 255)) ;
+  color: rgb(0, 0, 0);
   padding-top: 50px;
   padding-bottom: 50px;
   max-width: 100% !important;
@@ -9,7 +9,7 @@
 
 #stockpile-management-system h2,
 #stockpile-management-system h3 {
-  color: rgba(14, 23, 52, 0.8); 
+  color: rgb(0, 0, 0);
 }
 .img-fluid {
   max-width: 30% !important;
@@ -20,12 +20,13 @@
 .challenge-card,
 .solution-card,
 .impact-card {
-  background-color: rgb(170, 200, 225); 
+  background-color: rgb(170, 200, 225);
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   margin-bottom: 30px;
+
 }
 
 .feature-card:hover,
@@ -39,12 +40,12 @@
 .card-title {
   font-size: 1.25rem;
   margin-bottom: 10px;
-  color: rgba(21, 34, 75, 0.87);
+  color: #000000;
 }
 
 .card-text {
   font-size: 1rem;
-  color: #37618d; 
+  color: #37618d;
 }
 
 .text-center {
@@ -62,7 +63,7 @@
 .lead {
   font-size: 1.1rem;
   font-weight: 300;
-  color: rgba(14, 23, 52, 0.8); 
+  color: rgba(14, 23, 52, 0.8);
 }
 
 /* Animation Classes */
@@ -73,33 +74,33 @@
 
 .feature-card {
   display: flex;
-  flex-direction: column; 
-  background-color: rgb(170, 200, 225); 
+  flex-direction: column;
+  background-color: rgb(170, 200, 225);
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   max-width: 240px;
   margin-bottom: 20px;
-  height: 90%; 
+  height: 90%;
   margin-left: 20px;
 }
 .feature-card .card-body {
-  flex: 1; 
+  flex: 1;
 }
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: 20px;
 }
 
 .col-md-4 {
-  flex: 1 1 calc(33.333% - 20px); 
+  flex: 1 1 calc(33.333% - 20px);
   box-sizing: border-box;
 }
 
 .feature-card img {
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
 }
 
@@ -108,12 +109,12 @@
 }
 
 .pdf-only #title {
-  font-size: 24px; 
-  font-family: 'Courier', bold; 
-  text-align: center; 
-  padding-top: 90px !important; 
+  font-size: 24px;
+  font-family: 'Courier', bold;
+  text-align: center;
+  padding-top: 90px !important;
   margin-bottom: 30px !important;
-  color: rgba(21, 34, 75, 0.87); 
+  color: rgba(21, 34, 75, 0.87);
 }
 .pdf-only #desc{
   margin-top: 120px;
@@ -221,7 +222,7 @@
   animation-name: zoomIn;
 }
 .qr-code-section {
-  background-color: rgb(170, 200, 225); 
+  background-color: rgb(170, 200, 225);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -235,7 +236,7 @@
 }
 
 .qr-code-section h3 {
-  color: rgba(14, 23, 52, 0.8); 
+  color: rgba(14, 23, 52, 0.8);
 }
 
 .qr-code-section .text-center {
@@ -243,14 +244,14 @@
 }
 @media print {
   #pdfContent {
-    margin-top: 40px; 
+    margin-top: 40px;
     padding-left: 10px;
   }
   #title {
     padding-top: 30px !important;
   }
   .pdf-layout .feature-card {
-    width: calc(33.333% - 20px); 
+    width: calc(33.333% - 20px);
   }
   body * {
     visibility: hidden;
@@ -272,14 +273,14 @@
 .pdf-layout {
   display: flex;
   flex-direction: column;
-  align-items: center; 
-  padding: 20px; 
+  align-items: center;
+  padding: 20px;
 }
 
 .pdf-layout .feature-card {
   width: calc(33.333% - 20px);
-  max-width: 260px; 
-  margin-bottom: 20px; 
+  max-width: 260px;
+  margin-bottom: 20px;
   background-color: rgb(170, 200, 225);
   border: none;
   border-radius: 10px;
@@ -291,12 +292,12 @@
 .pdf-layout .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
-  gap: 20px; 
+  justify-content: center;
+  gap: 20px;
 }
 
 .pdf-layout .col-md-4 {
-  flex: 1 1 calc(33.333% - 20px); 
+  flex: 1 1 calc(33.333% - 20px);
   box-sizing: border-box;
   max-width: 260px;
 }
@@ -304,19 +305,19 @@
 
 
 #impact-section h3 {
-  color: rgba(14, 23, 52, 0.8); 
+  color: rgba(14, 23, 52, 0.8);
   margin-bottom: 20px;
   text-align: center;
 }
 
 #impact-section ul {
-  list-style: none; 
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
 #impact-section li {
-  background-color: linear-gradient(45deg,rgba(170, 200, 225, 0.64), rgb(85, 109, 152)); 
+  background-color: linear-gradient(45deg,rgba(170, 200, 225, 0.64), rgb(85, 109, 152));
   border: 2px solid linear-gradient(45deg,rgba(170, 200, 225, 0.64), rgb(90, 113, 154));
   border-radius: 10px;
   padding: 10px;

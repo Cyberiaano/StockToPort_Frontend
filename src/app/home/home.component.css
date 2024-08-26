@@ -14,8 +14,10 @@
 
 
 #who-we-are {
-  background: linear-gradient(45deg, rgba(21, 34, 75, 0.8), rgba(21, 34, 75, 1));
+  background: linear-gradient(45deg, rgb(232, 240, 255), rgb(255, 255, 255));
   padding: 20px;
+  color: #1a1d20;
+
   .container {
     position: relative ;
     margin-top: 37px;
@@ -25,12 +27,13 @@
 
 
 #our-solutions {
-  background: linear-gradient(45deg, rgb(170, 200, 225), rgb(232, 240, 255));
   padding: 20px;
+  background: linear-gradient(45deg, rgba(0, 51, 102, 0.94), rgb(170, 200, 225));
+  color: #ffffff;
 }
 
 #help-and-assistance {
-  background: linear-gradient(45deg, rgba(21, 34, 75, 0.8), rgba(21, 34, 75, 1));
+  background: linear-gradient(45deg, rgba(0, 51, 102, 0.94), rgb(255, 255, 255));
   padding: 20px;
 }
 

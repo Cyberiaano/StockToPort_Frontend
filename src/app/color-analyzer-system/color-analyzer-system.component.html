@@ -1,0 +1,90 @@
+<app-solution-header></app-solution-header>
+<section id="color-analyzers" class="py-5" style="margin-top: 60px;">
+  <div class="container">
+    <div id="pdfContent">
+      <!-- Description Section -->
+      <div class="description mb-5">
+        <h1 id="title" class="text-center">Color Analyzers</h1>
+        <p id="desc" class="lead text-center">A device that captures images and compares color to references with smart technology. Applied to conveyors at warehouse exit and port for real-time monitoring of fertilizer quality.</p>
+        <div class="text-center">
+          <img id="color-analyzer-img" src="/assets/solutions/color-analyzer.png" alt="Color Analyzers" class="img-fluid my-4 animate__animated animate__fadeInUp">
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="features mb-5">
+        <h3 class="text-center mb-4" id="feat">Features</h3>
+        <div class="row" id="features-section">
+          <div class="col-md-6">
+            <div class="card feature-card animate__animated animate__zoomIn">
+              <img src="/assets/features/color-detection.png" alt="Color Detection" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Color Detection</h5>
+                <p class="card-text">Detect specific color thresholds or variations indicative of contaminants.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.1s;">
+              <img src="/assets/features/alert.png" alt="Real-time Alerts" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Real-time Alerts</h5>
+                <p class="card-text">Provide real-time alerts when color variations exceed acceptable thresholds.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+              <img src="/assets/features/logging.png" alt="Data Logging" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Data Logging</h5>
+                <p class="card-text">Record and log color analysis data over time for trend analysis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.3s;">
+              <img src="/assets/features/calibration.png" alt="Calibration" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Calibration</h5>
+                <p class="card-text">Calibrate the cameras to identify and adjust for color nuances in-house.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact Section -->
+      <div class="impacts mb-5">
+        <h3 class="text-center mb-4" id="impact">Impact/ Value Creation</h3>
+        <ul id="impact-section" class="animate__animated animate__fadeIn">
+          <li>Fewer dedicated quality inspectors needed.</li>
+          <li>Improved detection rate and accuracy.</li>
+          <li>Early detection decreases the impact of contaminations.</li>
+        </ul>
+      </div>
+
+      <!-- Vendors Section -->
+      <div id="vendors-section" class="vendors-maturity mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center" style="text-align: center;" id="vendors">Vendors</h4>
+            <div class="text-center" style="margin-top: 15px;" id="vendors-section">
+              <a href="https://www.cognex.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/cognex-logo.png" alt="Cognex" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 70px;height: 70px;">
+              </a>
+              <a href="https://lucidvisionlabs.com/" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/lucid-logo.png" alt="Lucid Vision Labs" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px;height: 30px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <button (click)="downloadDescription()" class="btn btn-primary">Download PDF</button>
+    </div>
+  </div>
+</section>

@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class ConditionMonitoringSystemComponent {
   public qrCodeData : string ='http://192.168.1.8:4200/condition-monitoring-system';
 
+  downloadDescription() {
+
+  }
 }

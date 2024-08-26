@@ -1,0 +1,116 @@
+<app-solution-header></app-solution-header>
+<section id="tripper-car-automation" class="py-5" style="margin-top: 60px;">
+  <div class="container">
+    <div id="pdfContent">
+      <!-- Description Section -->
+      <div class="description mb-5">
+        <h1 id="title" class="text-center">Tripper Car Automation</h1>
+        <p id="desc" class="lead text-center">
+          Automatic control of tripper cars using sensors communicating with the ICS (Integrated Control System).
+          The solution provides remote control capabilities, load sensing technology, safety interlocks, emergency stop functions, local control panels, and manual override options to ensure safe and efficient operations.
+        </p>
+        <div class="text-center">
+          <img id="tripper-img" src="/assets/solutions/tripper-car.png" alt="Tripper Car Automation" class="img-fluid my-4 animate__animated animate__fadeInUp">
+        </div>
+      </div>
+
+      <!-- Features Section -->
+      <div class="features mb-5">
+        <h3 class="text-center mb-4" id="feat">Features</h3>
+        <div class="row" id="features-section">
+          <div class="col-md-2">
+            <div class="card feature-card animate__animated animate__zoomIn">
+              <img src="/assets/features/remote-control.png" alt="Remote Control Capability" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Remote Control Capability</h5>
+                <p class="card-text">Enables remote operation of tripper cars for improved performance and safety.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.1s;">
+              <img src="/assets/features/load-sensing.png" alt="Load Sensing Technology" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Load Sensing Technology</h5>
+                <p class="card-text">Integrated sensors measure the capacity and weight of materials accurately.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+              <img src="/assets/features/safety-interlocks.png" alt="Safety Interlocks" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Safety Interlocks</h5>
+                <p class="card-text">Prevent unauthorized access and ensure safe operating conditions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.3s;">
+              <img src="/assets/features/emergency-stop.png" alt="Emergency Stop Function" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Emergency Stop Function</h5>
+                <p class="card-text">Immediate halting of operations in critical situations to prevent accidents.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card feature-card animate__animated animate__zoomIn" style="animation-delay: 0.4s;">
+              <img src="/assets/features/manual-override.png" alt="Manual Override" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Manual Override</h5>
+                <p class="card-text">Provides redundancy and manual control in unforeseen situations.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Impact Section -->
+      <div class="impacts mb-5">
+        <h3 class="text-center mb-4" id="impact">Impact/ Value Creation</h3>
+        <ul id="impact-section" class="animate__animated animate__fadeIn">
+          <li>Precise stockpile stacking and better utilization of storage space.</li>
+          <li>Reduced need for FTE surveillance through integration with CCTV systems.</li>
+        </ul>
+      </div>
+
+      <!-- Vendors Section -->
+      <div id="vendors-section" class="vendors-maturity mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center" id="vendors">Vendors</h4>
+            <div class="text-center" style="margin-top: 15px;" id="vendors-section">
+              <a href="https://www.siemens.com" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/siemens-logo.png" alt="Siemens" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 70px; height: 70px;">
+              </a>
+              <a href="https://new.abb.com" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/abb-logo.png" alt="ABB" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px; height: 30px;">
+              </a>
+              <a href="https://www.schneider-electric.com" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/schneider-logo.png" alt="Schneider Electric" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 130px; height: 40px;">
+              </a>
+              <a href="https://www.vale.com" class="mx-3 my-2" target="_blank">
+                <img src="/assets/logos/vale-logo.png" alt="Vale" class="img-fluid my-4 animate__animated animate__fadeInLeft" style="width: 90px; height: 50px;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- QR Code Section -->
+      <!--
+      <div class="qr-code mb-5">
+        <h3 class="text-center mb-4">QR Code</h3>
+        <div class="text-center">
+          <qrcode [qrdata]="qrCodeData" [width]="256" errorCorrectionLevel="M"></qrcode>
+        </div>
+      </div>
+      -->
+    </div>
+
+    <div class="text-center">
+      <button (click)="downloadDescription()" class="btn btn-primary">Download PDF</button>
+    </div>
+  </div>
+</section>

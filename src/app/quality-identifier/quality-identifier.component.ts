@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './quality-identifier.component.css'
 })
 export class QualityIdentifierComponent {
-  qrCodeData : string = 'http://localhost:4200/quality-identifier'; 
+  qrCodeData : string = 'http://localhost:4200/quality-identifier';
 
+  downloadDescription() {
+
+  }
 }
